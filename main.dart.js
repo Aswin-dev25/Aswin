@@ -26648,7 +26648,7 @@ switch(a){case"flutter/skia":s=B.ao.fM(a0)
 switch(s.a){case"Skia.setResourceCacheMaxBytes":if($.a5() instanceof A.uW){r=A.cO(s.b)
 $.We.R().d.DF(r)}c.dC(a1,B.Q.br([A.b([!0],t.HZ)]))
 break}return
-case"flutter/Aswin/assets":c.ox(B.a_.e3(0,A.dK(a0.buffer,0,b)),a1)
+case"flutter/assets":c.ox(B.a_.e3(0,A.dK(a0.buffer,0,b)),a1)
 return
 case"flutter/platform":s=B.ao.fM(a0)
 switch(s.a){case"SystemNavigator.pop":q=t.e8
@@ -36216,7 +36216,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.SR(B.hw,s+"Aswin/Aswin/assets/"+a,B.a_,!1)}}
+s=q}return A.SR(B.hw,s+"Aswin/assets"+a,B.a_,!1)}}
 A.uS.prototype={
 G(){return"BrowserEngine."+this.b}}
 A.km.prototype={
@@ -54690,7 +54690,7 @@ $S:36}
 A.a5n.prototype={
 ja(a,b){var s,r=B.be.d9(A.ai7(null,A.SR(B.hw,b,B.a_,!1),null).e),q=$.dr.aR$
 q===$&&A.a()
-s=q.wm(0,"flutter/Aswin/assets",A.akW(r)).bp(new A.a5o(b),t.V4)
+s=q.wm(0,"flutter/assets",A.akW(r)).bp(new A.a5o(b),t.V4)
 return s},
 v8(a){return this.a8Q(a)},
 a8Q(a){var s=0,r=A.S(t.SG),q,p=this,o,n
@@ -69440,7 +69440,7 @@ $S:0}
 A.GQ.prototype={
 I(a){return B.K7}}
 A.GO.prototype={
-I(a){var s=null,r=A.ag(a),q=$.kF.R(),p=10*$.b5.R()/100,o=$.kF.R(),n=$.b5.R(),m=t.p,l=A.eB(A.b([A.bQ("Hi there, Welcome to My Space  ",B.Ov,s),new A.iS(A.GV("Aswin/assets/gif/hi.gif",B.V,s,40,s,s),B.cX,B.ce,B.h,s)],m),B.bf,B.N,B.bQ),k=A.bp(s,0.5*$.b5.R()/100,s),j=A.bQ("I'm Aswin,",B.Ow,s),i=A.eB(A.b([B.Qv,A.akN($.axH(),!0,!0)],m),B.bf,B.N,B.S),h=A.bp(s,1.5*$.b5.R()/100,s),g=$.b5.R(),f=A.pE(a,20),e=(r.ax.a===B.w?B.Y:B.Z).a
+I(a){var s=null,r=A.ag(a),q=$.kF.R(),p=10*$.b5.R()/100,o=$.kF.R(),n=$.b5.R(),m=t.p,l=A.eB(A.b([A.bQ("Hi there, Welcome to My Space  ",B.Ov,s),new A.iS(A.GV("assets/gif/hi.gif",B.V,s,40,s,s),B.cX,B.ce,B.h,s)],m),B.bf,B.N,B.bQ),k=A.bp(s,0.5*$.b5.R()/100,s),j=A.bQ("I'm Aswin,",B.Ow,s),i=A.eB(A.b([B.Qv,A.akN($.axH(),!0,!0)],m),B.bf,B.N,B.S),h=A.bp(s,1.5*$.b5.R()/100,s),g=$.b5.R(),f=A.pE(a,20),e=(r.ax.a===B.w?B.Y:B.Z).a
 return A.bp(new A.ch(new A.aO(p,0,p,0),A.eB(A.b([A.cl(s,A.eS(A.b([l,k,j,i,h,new A.ch(new A.aO(0,0,10*g/100,0),A.bQ(u.Z,A.cA(s,s,A.V(153,e>>>16&255,e>>>8&255,e&255),s,s,s,s,s,s,s,s,f,s,s,B.y,s,s,!0,s,s,s,s,s,s,s,s),s),s),A.bp(s,3*$.b5.R()/100,s),new A.nl("download cv",new A.a_B(),s)],m),B.ax,B.N,B.bQ),B.o,s,s,s,s,s,new A.aO(0,10*o/100,0,0),s,s,s,55*n/100),B.x_],m),B.R,B.ev,B.S),s),80*q/100,s)}}
 A.a_B.prototype={
 $0(){},
@@ -69449,7 +69449,7 @@ A.GP.prototype={
 I(a){var s,r=null,q=$.b5.R(),p=$.kF.R(),o=$.b5.R(),n=$.akP
 n.toString
 s=t.p
-return new A.ch(new A.aO(10*q/100,10*p/100,10*o/100,0),A.eS(A.b([A.eB(A.b([A.bQ("Hi there, Welcome to My Space  ",n.fL(A.pE(a,16)),r),A.GV("Aswin/assets/gif/hi.gif",B.V,r,10*($.b5.R()/3)/100,r,r)],s),B.R,B.N,B.bQ),A.bQ("I'm Aswin,",A.cA(r,r,r,r,r,r,r,r,r,r,r,A.pE(a,28),r,r,B.bm,r,r,!0,r,r,r,r,r,r,r,r),r),A.bp(r,$.b5.R()/100,r),A.eB(A.b([A.bQ("A ",A.cA(r,r,r,r,r,r,r,r,r,r,r,A.pE(a,18),r,r,B.y,r,r,!0,r,r,r,r,r,r,r,r),r),A.akN($.axJ(),!0,!0)],s),B.bf,B.N,B.S),A.bp(r,2*$.b5.R()/100,r),A.eB(A.b([new A.nl("download cv",new A.a_C(),r),B.l0],s),B.R,B.ev,B.S)],s),B.ax,B.N,B.S),r)}}
+return new A.ch(new A.aO(10*q/100,10*p/100,10*o/100,0),A.eS(A.b([A.eB(A.b([A.bQ("Hi there, Welcome to My Space  ",n.fL(A.pE(a,16)),r),A.GV("assets/gif/hi.gif",B.V,r,10*($.b5.R()/3)/100,r,r)],s),B.R,B.N,B.bQ),A.bQ("I'm Aswin,",A.cA(r,r,r,r,r,r,r,r,r,r,r,A.pE(a,28),r,r,B.bm,r,r,!0,r,r,r,r,r,r,r,r),r),A.bp(r,$.b5.R()/100,r),A.eB(A.b([A.bQ("A ",A.cA(r,r,r,r,r,r,r,r,r,r,r,A.pE(a,18),r,r,B.y,r,r,!0,r,r,r,r,r,r,r,r),r),A.akN($.axJ(),!0,!0)],s),B.bf,B.N,B.S),A.bp(r,2*$.b5.R()/100,r),A.eB(A.b([new A.nl("download cv",new A.a_C(),r),B.l0],s),B.R,B.ev,B.S)],s),B.ax,B.N,B.S),r)}}
 A.a_C.prototype={
 $0(){var s=window
 s.toString
@@ -69463,7 +69463,7 @@ r=$.kF.R()
 q=$.akP
 q.toString
 p=t.p
-q=A.eB(A.b([A.bQ("Hi there, Welcome to My Space  ",q.fL(A.pE(a,18)),h),new A.iS(A.GV("Aswin/assets/gif/hi.gif",B.V,h,10*($.b5.R()/3)/100,h,h),B.cX,B.ce,B.h,h)],p),B.R,B.N,B.bQ)
+q=A.eB(A.b([A.bQ("Hi there, Welcome to My Space  ",q.fL(A.pE(a,18)),h),new A.iS(A.GV("assets/gif/hi.gif",B.V,h,10*($.b5.R()/3)/100,h,h),B.cX,B.ce,B.h,h)],p),B.R,B.N,B.bQ)
 o=A.bp(h,$.b5.R()/100,h)
 n=A.bQ("I'm Aswin,",A.cA(h,h,h,h,h,h,h,h,h,h,h,A.pE(a,38),h,h,B.bm,h,h,!0,h,h,h,h,h,h,h,h),h)
 m=A.eB(A.b([A.bQ("A ",A.cA(h,h,h,h,h,h,h,h,h,h,h,A.pE(a,24),h,h,B.y,h,h,!0,h,h,h,h,h,h,h,h),h),A.akN($.axN(),!0,!1)],p),B.R,B.N,B.S)
@@ -69498,7 +69498,7 @@ o=A.xQ(r,A.cl(r,A.aoD(A.cl(r,r,B.o,B.x,r,r,r,166,r,r,r,r,166),o),B.o,r,r,B.y_,r,
 s=A.V(B.c.a3(127.5),9,251,211)
 p=p.Lo(500,500,B.aE)
 s=A.b([o,A.xQ(0,A.cl(r,A.aoD(A.cl(r,r,B.o,B.x,r,r,r,200,r,r,r,r,200),p),B.o,r,r,new A.cq(s,r,r,r,r,r,B.cH),r,100,r,r,r,r,200),r,r,r,-100,r,r)],t.p)
-if(!b.a)s.push(new A.hH(B.V,r,r,A.GV("Aswin/Aswin/assets/imgs/5424482.JPG",B.dL,B.fu,q,B.xo,this.b),r))
+if(!b.a)s.push(new A.hH(B.V,r,r,A.GV("assets/imgs/5424482.JPG",B.dL,B.fu,q,B.xo,this.b),r))
 s.push(new A.Mp(r))
 s.push(B.xq)
 return A.jl(B.aM,s,B.b6)},
@@ -75093,7 +75093,7 @@ B.kO=new A.nr(2,"initializedServices")
 B.CS=new A.nr(3,"initializingUi")
 B.CT=new A.nr(4,"initialized")
 B.ST=new A.Xy(1,"traversalOrder")
-B.xr=new A.na("Aswin/Aswin/assets/imgs/myprofile.jpg",null,null)
+B.xr=new A.na("assets/imgs/myprofile.jpg",null,null)
 B.xm=new A.d7(-1,1)
 B.b3=new A.qK(3,"noRepeat")
 B.aS=new A.nE(2,"medium")
@@ -77963,10 +77963,10 @@ r($,"aOw","axH",()=>A.b([A.mx(" Mobile Application Developer",B.ay,$.jP.fL(32)),
 r($,"aOP","axN",()=>A.b([A.mx(" Mobile Application Developer",B.ay,$.jP.fL(20)),A.mx(" UI/UX Designer",B.ay,$.jP.fL(20)),A.mx(" Web Developer",B.ay,$.jP.fL(20))],A.aa("w<pe>")))
 r($,"aOC","axJ",()=>A.b([A.mx(" Mobile Application Developer",B.ay,$.jP.fL(16)),A.mx(" UI/UX Designer",B.ay,$.jP.fL(16)),A.mx(" Web Developer",B.ay,$.jP.fL(16))],A.aa("w<pe>")))
 r($,"aOu","aoj",()=>A.b([A.lw("https://img.icons8.com/ios-glyphs/60/000000/github.png","https://github.com/sudeshnb"),A.lw("https://img.icons8.com/ios-filled/50/000000/fiverr.png","https://www.fiverr.com/sudeshnb"),A.lw("https://img.icons8.com/ios-filled/50/000000/facebook-new.png","https://facebook.com/sudeshnb"),A.lw("https://img.icons8.com/ios-filled/50/000000/youtube-play.png","https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg"),A.lw("https://img.icons8.com/material-outlined/48/000000/whatsapp.png",u.a),A.lw("https://img.icons8.com/fluency/48/000000/twitter.png","https://twitter.com/sudesh78"),A.lw("https://img.icons8.com/ios-filled/50/000000/linkedin.png","https://linkedin.com/in/sudeshnb"),A.lw("https://img.icons8.com/ios-filled/50/000000/upwork.png","https://www.upwork.com/freelancers/~015c46144016569e31"),A.lw("https://img.icons8.com/glyph-neue/64/000000/instagram-new.png","https://instagram.com/sudesh_nish")],A.aa("w<qg>")))
-r($,"aOJ","aky",()=>{var q="Aswin/assets/imgs/flutter.png"
-return A.b([A.a5Z("Aswin/assets/imgs/kuttystory1.PNG","This is a just Fully functional Social media App by using flutter, source code is also available, check below.",q,"https://play.google.com/store/apps/details?id=com.skylimit.kuttystory&pcampaignid=web_share","KuttyStory"),A.a5Z("Aswin/assets/imgs/prepster1.PNG","This is a just CRM UI Design using Figma, file is also available, check below.",q,"https://store.prepsteruniforms.com/","Prepster"),A.a5Z("Aswin/assets/imgs/Home Grow1.PNG","This is a just Fully function Exercise App by using flutter, source code is also available, check below.",q,"https://play.google.com/store/apps/details?id=com.homegrowenterprise.homegrow&pcampaignid=web_share","Home Grow"),A.a5Z("Aswin/assets/imgs/HomeGrowweb.PNG","This is a just Plant App UI by using flutter, source code is also available, check below.",q," https://www.homegrow.co.in/","Home Grow DashBoard")],A.aa("w<rm>"))})
+r($,"aOJ","aky",()=>{var q="assets/imgs/flutter.png"
+return A.b([A.a5Z("assets/imgs/kuttystory1.PNG","This is a just Fully functional Social media App by using flutter, source code is also available, check below.",q,"https://play.google.com/store/apps/details?id=com.skylimit.kuttystory&pcampaignid=web_share","KuttyStory"),A.a5Z("assetsimgs/prepster1.PNG","This is a just CRM UI Design using Figma, file is also available, check below.",q,"https://store.prepsteruniforms.com/","Prepster"),A.a5Z("assetsimgs/Home Grow1.PNG","This is a just Fully function Exercise App by using flutter, source code is also available, check below.",q,"https://play.google.com/store/apps/details?id=com.homegrowenterprise.homegrow&pcampaignid=web_share","Home Grow"),A.a5Z("assetsimgs/HomeGrowweb.PNG","This is a just Plant App UI by using flutter, source code is also available, check below.",q," https://www.homegrow.co.in/","Home Grow DashBoard")],A.aa("w<rm>"))})
 r($,"aON","akz",()=>{var q=t.s
-return A.b([A.aml("I have published three to four Android apps on the Play Store.","Aswin/assets/icons/android.svg","Android App Development",A.b(["Flutter"],q)),A.aml("I have published three to four ios apps on the AppStore.","Aswin/assets/icons/apple.svg","iOS App Development",A.b(["Flutter"],q)),A.aml("UI/UX design for mobile apps and Web apps, creating user-friendly and visually appealing interfaces using Flutter.","Aswin/assets/icons/graphic.svg","UI/UX Designing",A.b(["Adobe XD","Figma"],q))],A.aa("w<rG>"))})
+return A.b([A.aml("I have published three to four Android apps on the Play Store.","assets/icons/android.svg","Android App Development",A.b(["Flutter"],q)),A.aml("I have published three to four ios apps on the AppStore.","assets/icons/apple.svg","iOS App Development",A.b(["Flutter"],q)),A.aml("UI/UX design for mobile apps and Web apps, creating user-friendly and visually appealing interfaces using Flutter.","assets/icons/graphic.svg","UI/UX Designing",A.b(["Adobe XD","Figma"],q))],A.aa("w<rG>"))})
 r($,"aOH","aoo",()=>A.aoT(12,B.c9,B.fU.OH(100),B.h,0))
 r($,"aOo","aku",()=>A.aoT(12,B.c9,B.l.OH(100),B.h,0))
 s($,"aM3","aw_",()=>{var q=null,p=A.aso()
